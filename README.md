@@ -10,4 +10,4 @@ AdGuard Extra comes pre-installed with all premium AdGuard versions. However, if
 2. Open Settings, switch mode to "Advanced"
 3. Scroll settings page down and find "Inject Mode" there
 4. Change it to "Instant"
-5. Click on this link to install AdGuard Extra: https://userscripts.adtidy.org/beta/adguard-extra/1.0/adguard-extra.user.js
+5. Click on this link to install AdGuard Extra: https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js
