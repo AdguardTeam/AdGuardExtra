@@ -11,3 +11,10 @@ AdGuard Extra comes pre-installed with all premium AdGuard versions. However, if
 3. Scroll settings page down and find "Inject Mode" there
 4. Change it to "Instant"
 5. Click on this link to install AdGuard Extra: https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js
+
+## Websites that are covered
+
+* Facebook
+* Yandex and their subsidiaries
+* Mail.ru and their subsidiaries
+* Rambler.ru and their subsidiaries
