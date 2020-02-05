@@ -12,9 +12,19 @@ AdGuard Extra comes pre-installed with all premium AdGuard versions. However, if
 4. Change it to "Instant"
 5. Click on this link to install AdGuard Extra: https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js
 
-## Websites that are covered
+## Important
+
+AdGuard Extra is a companion extension, it is supposed to be used with a full-scale ad blocker like AdGuard or any other.
+
+It provides no user interface save for the extension icon in the toolbar. Your browser should allow you to hide the icon if it annoys you.
+
+Please note that it is only useful on a limited set of websites, and it does nothing on the websites not from this list.
+
+### Websites where AdGuard Extra can be useful
 
 * Facebook
 * Yandex and their subsidiaries
 * Mail.ru and their subsidiaries
 * Rambler.ru and their subsidiaries
+* Wp.pl
+* 4pda.ru
