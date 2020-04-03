@@ -1,16 +1,31 @@
-# AdGuard Extra userscript
+# AdGuard Extra
 
-AdGuard Extra is a userscript that is supposed to fight ad blocking circumvention attempts which become more and more and popular. Regular ad blocking rules do not allow us being as flexible as it's necessary, that's why AdGuard Extra was developed.
+AdGuard Extra is a userscript (or a browser extension) that is supposed to fight ad blocking circumvention attempts which become more and more and popular. Regular ad blocking rules do not allow us being as flexible as it's necessary, that's why AdGuard Extra was developed.
 
-AdGuard Extra comes pre-installed with all premium AdGuard versions. However, if you want to use it alongside AdGuard browser extension, you'll need to use an additional extension.
+AdGuard Extra comes pre-installed with all premium AdGuard versions for if you use it, you don't need to do anything.
+However, if you want to use it alongside AdGuard browser extension or any other ad blocker, you'll need to use an additional extension.
 
 ## How to install AdGuard Extra
+
+### Chrome or Chromium-based browser
+
+* **Stable version**: https://agrd.io/adguard_extra_chrome_release
+* Beta: https://agrd.io/adguard_extra_firefox_release
+
+### Firefox
+
+* **Stable version**: https://agrd.io/adguard_extra_firefox_release
+* Beta: https://agrd.io/adguard_extra_firefox_beta
+
+### Userscript
 
 1. Install Tampermonkey
 2. Open Settings, switch mode to "Advanced"
 3. Scroll settings page down and find "Inject Mode" there
 4. Change it to "Instant"
 5. Click on this link to install AdGuard Extra: https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js
+
+Alternatively, you can install the beta version of AdGuard Extra userscript: https://userscripts.adtidy.org/beta/adguard-extra/1.0/adguard-extra.user.js
 
 ## Important
 
