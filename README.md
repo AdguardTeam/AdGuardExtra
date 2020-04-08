@@ -10,7 +10,7 @@ However, if you want to use it alongside AdGuard browser extension or any other 
 ### Chrome or Chromium-based browser
 
 * **Stable version**: https://agrd.io/adguard_extra_chrome_release
-* Beta: https://agrd.io/adguard_extra_firefox_release
+* Beta: https://agrd.io/adguard_extra_chrome_beta
 
 ### Firefox
 
