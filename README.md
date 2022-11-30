@@ -36,10 +36,88 @@ It provides no user interface save for the extension icon in the toolbar. Your b
 Please note that it is only useful on a limited set of websites, and it does nothing on the websites not from this list.
 
 ### Websites where AdGuard Extra can be useful
-
-* Facebook
-* Yandex and their subsidiaries
-* Mail.ru and their subsidiaries
-* Rambler.ru and their subsidiaries
-* Wp.pl
+* facebook.com
+* twitch.tv
+* youtube.com
+* discoveryplus.com
+* go.discovery.com
+* investigationdiscovery.com
+* sciencechannel.com
+* go.tlc.com
+* watch.hgtv.com
+* livejournal.com
+* tidal.com
+* techpowerup.com
+* Yandex.ru and it's services
+* Mail.ru and it's services
+* Rambler and it's services
+* ok.ru
+* lenta.ru
 * 4pda.ru
+* 4pda.to
+* drive2.com
+* drive2.ru
+* echo.msk.ru
+* auto.ru
+* 24smi.org
+* ygosu.com
+* ppss.kr
+* soft98.ir
+* rjno1.com
+* 1777.ru
+* amedia.online
+* bigmir.net
+* bilshe.com
+* championat.com
+* cn.ru
+* duplichecker.com
+* eda.ru
+* enovosty.com
+* facenews.ua
+* gazeta.ru
+* glianec.com
+* hvylya.net
+* inforesist.org
+* kakprosto.ru
+* kinopoisk.ru
+* lena-miro.ru
+* letidor.ru
+* levik.blog
+* liga.net
+* liveinternet.ru
+* media.auto.ru
+* motor.ru
+* msn.com
+* multiup.org
+* nashamama.com
+* nnovosti.info
+* olegmakarenko.ru
+* ostro.orgu
+* otzovik.com
+* passion.ru
+* peers.tv
+* periskop.su
+* pussyspace.com
+* pussyspace.net
+* quto.ru
+* real-vin.com
+* rns.online
+* sheee.co.il
+* sinoptik.ua
+* sm.news
+* smallseotools.com
+* spletnik.ru
+* sportmail.ru
+* strana.ua
+* tochka.net
+* ukr.net
+* vadimrazumov.ru
+* varlamov.ru
+* vidstream.online
+* viks.bz
+* vsetv.com
+* walla.co.il
+* wmj.ru
+* wp.pl
+* yap.ru
+* yaplakal.com
