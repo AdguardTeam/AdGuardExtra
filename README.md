@@ -45,6 +45,7 @@ Please note that it is only useful on a limited set of websites, and it does not
 * sciencechannel.com
 * go.tlc.com
 * watch.hgtv.com
+* foodnetwork.com
 * livejournal.com
 * tidal.com
 * techpowerup.com
