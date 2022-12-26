@@ -58,6 +58,7 @@ Please note that it is only useful on a limited set of websites, and it does not
 * 4pda.to
 * drive2.com
 * drive2.ru
+* irecommend.ru
 * echo.msk.ru
 * auto.ru
 * 24smi.org
