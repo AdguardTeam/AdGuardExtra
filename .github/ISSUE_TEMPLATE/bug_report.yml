@@ -1,0 +1,197 @@
+name: Bug report
+description: Report an issue with AdGuard Extra
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: |
+        To avoid invalid reports, please check and confirm following checkboxes.
+        It is highly recommended to use our [Web Reporting Tool](https://kb.adguard.com/en/technical-support/reporting-tool) instead of creating an issue on GitHub.
+      options:
+        - label: Filters were updated before reproducing an issue;
+          required: true
+        - label: AdGuard Extra version is up-to-date;
+          required: true
+  - type: dropdown
+    id: products
+    attributes:
+      label: What product do you use?
+      multiple: true
+      options:
+        - AdGuard for iOS
+        - AdGuard for Android
+        - Adguard for Windows
+        - Adguard for Mac
+        - AdGuard Extra Extension
+        - AdGuard Extra with other script manager
+    validations:
+      required: true
+
+  - type: dropdown
+    id: what-happened
+    attributes:
+      label: What type of problem have you encountered?
+      description: If the problem does not fall under any category that is listed here, please contact our tech support - support@adguard.com
+      multiple: true
+      options:
+        - Missed ads or ad leftovers
+        - Website or app doesn't work properly
+        - AdGuard Extra gets detected on a website
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Which browser(s) do you use?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Opera
+        - Yandex Browser
+        - other (specify in comment below)
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Where is the problem encountered?
+      description: Enter the web address or affected application link.
+      placeholder: ex. https://example.com/
+    validations:
+      required: true
+
+  - type: dropdown
+    id: filters
+    attributes:
+      label: What filters do you have enabled?
+      description: Select enabled filters from the list or enter URLs of any custom filters in the comment field below.
+      multiple: true
+      options:
+        - AdGuard Base filter
+        - AdGuard Mobile Ads filter
+        - AdGuard Chinese filter
+        - AdGuard Dutch filter
+        - AdGuard French filter
+        - AdGuard German filter
+        - AdGuard Japanese filter
+        - AdGuard Russian filter
+        - AdGuard Spanish/Portuguese filter
+        - AdGuard Turkish filter
+        - AdGuard Tracking Protection filter
+        - AdGuard URL Tracking filter
+        - AdGuard Social Media filter
+        - AdGuard Annoyances filter
+        - AdGuard Cookie Notices filter
+        - AdGuard Popups filter
+        - AdGuard Mobile App Banners filter
+        - AdGuard Widgets filter
+        - AdGuard Other Annoyances filter
+        - AdGuard DNS filter
+        - AdGuard Experimental filter
+        - Filter unblocking search ads and self-promotion
+        - ---Third-party filters---
+        - EasyList
+        - ABPindo
+        - Bulgarian list
+        - EasyList China
+        - EasyList Czech and Slovak
+        - EasyList Dutch
+        - EasyList Germany
+        - EasyList Hebrew
+        - EasyList Italy
+        - EasyList Lithuania
+        - Latvian List
+        - Liste AR
+        - Liste FR
+        - ROList
+        - EasyPrivacy
+        - Icelandic ABP List
+        - AdBlockID
+        - Greek AdBlock Filter
+        - Fanboy's Annoyances
+        - Fanboy's Social Blocking List
+        - Web Annoyances Ultralist
+        - Thai Ads Filters
+        - Hungarian filter
+        - Peter Lowe's Blocklist
+        - Xfiles
+        - Adblock Warning Removal List
+        - Online Malicious URL Blocklist
+        - RU AdList - Counters
+        - ABPVN List
+        - Fanboy's Enhanced Tracking List
+        - Official Polish filters for AdBlock, uBlock Origin & AdGuard
+        - Polish GDPR-Cookies Filters
+        - Estonian List
+        - CJX's Annoyances List
+        - Polish Social Filters
+        - Fanboy's Anti-Facebook List
+        - List-KR
+        - xinggsf
+        - I don't care about cookies
+        - EasyList Spanish
+        - KAD - Anti-Scam
+        - Adblock List for Finland
+        - ROLIST2
+        - Iranian filter
+        - road-block
+        - Polish Annoyances Filters
+        - Polish Anti Adblock Filters
+        - Fanboy's Anti-thirdparty Fonts
+        - EasyList Cookie List
+        - NoCoin Filter List
+        - Frellwit's Swedish Filter
+        - YousList
+        - AlleBlock
+        - EasyList Polish
+        - Polish Anti-Annoying Special Supplement
+        - Dandelion Sprout's Nordic Filters
+        - Dandelion Sprout's Annoyances List
+        - Legitimate URL Shortener
+        - Dandelion Sprout's Serbo-Croatian List
+        - IndianList
+    validations:
+      required: true
+
+  - type: textarea
+    id: comments
+    attributes:
+      label: Add your comment and screenshots
+      description: |
+        1. Add screenshots of the problem. You can drag and drop images or paste them from clipboard;
+          Use `<details> </details>` tag to hide screenshots under the spoiler;
+        2. Describe the issue extensively unless it is absolutely clear from the screenshot what the problem is;
+        You can also indicate any other information that you think the developers should know.
+
+        Warning: Please remove personal information before uploading screenshots!
+      value: |
+          1. <comment>
+
+          2. Screenshots
+          <details><summary>Screenshot 1:</summary>
+
+          <!-- paste screenshot here -->
+
+          </details>
+
+          <details><summary>Screenshot N:</summary>
+
+          <!-- paste screenshot here -->
+
+          </details>
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Privacy
+      description: By submitting this issue, you agree that report does not contain private info
+      options:
+        - label: I agree to follow this condition
+          required: true
