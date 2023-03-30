@@ -102,6 +102,7 @@ Please note that it is only useful on a limited set of websites, and it does not
 * pussyspace.com
 * pussyspace.net
 * quto.ru
+* rg.ru
 * real-vin.com
 * rns.online
 * sheee.co.il
