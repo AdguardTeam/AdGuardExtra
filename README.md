@@ -124,3 +124,4 @@ Please note that it is only useful on a limited set of websites, and it does not
 * wp.pl
 * yap.ru
 * yaplakal.com
+* sports.ru
