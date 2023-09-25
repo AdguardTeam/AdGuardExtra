@@ -27,6 +27,21 @@ However, if you want to use it alongside AdGuard browser extension or any other 
 
 Alternatively, you can install the beta version of AdGuard Extra userscript: https://userscripts.adtidy.org/beta/adguard-extra/1.0/adguard-extra.user.js
 
+## How to exclude websites
+
+### Userscript
+
+You can restrict userscript from working on certain websites by adding `@exclude` rule to the userscript header. For example, to exclude `example.com`, you should add the following line to the userscript header:
+```
+// @exclude  *://example.com/*
+```
+
+When using Tampermonkey, you can also use the built-in editor to add the rule. To do so, open the userscript settings, and add the pattern to the `Blacklisted Pages` field of `Security` section.
+
+### Extension
+
+AdGuard Extra extension can be restricted to specific websites in Chrome with `Allow site access` option of the extension settings.
+
 ## Important
 
 AdGuard Extra is a companion extension, it is supposed to be used with a full-scale ad blocker like AdGuard or any other.
