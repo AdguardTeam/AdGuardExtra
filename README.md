@@ -34,6 +34,7 @@ Alternatively, you can install the beta version of AdGuard Extra userscript: htt
 You can restrict userscript from working on certain websites by adding `@exclude` rule to the userscript header. For example, to exclude `example.com`, you should add the following line to the userscript header:
 ```
 // @exclude  *://example.com/*
+// @exclude *://*.example.com/*
 ```
 
 When using Tampermonkey, you can also use the built-in editor to add the rule. To do so, open the userscript settings, and add the pattern to the `Blacklisted Pages` field of `Security` section.
