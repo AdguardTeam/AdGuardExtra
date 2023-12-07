@@ -1,5 +1,5 @@
 {
-    "version": "1.0.547",
+    "version": "1.0.562",
     "hosts": [
         "*.livejournal.com",
         "1777.ru",
@@ -21,6 +21,7 @@
         "bigmir.net",
         "bilshe.com",
         "championat.com",
+        "chip.de",
         "cn.ru",
         "developers.rambler.ru",
         "discoveryplus.com",
@@ -111,6 +112,7 @@
         "passion.ru",
         "peers.tv",
         "periskop.su",
+        "pikabu.ru",
         "ppss.kr",
         "pulse.mail.ru",
         "quto.ru",
@@ -175,7 +177,6 @@
         "yap.ru",
         "yaplakal.com",
         "ygosu.com",
-        "youpouch.com",
-        "youtube.com"
+        "youpouch.com"
     ]
 }
