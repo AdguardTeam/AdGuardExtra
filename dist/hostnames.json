@@ -1,5 +1,5 @@
 {
-    "version": "1.0.562",
+    "version": "1.0.563",
     "hosts": [
         "*.livejournal.com",
         "1777.ru",
@@ -21,6 +21,7 @@
         "bigmir.net",
         "bilshe.com",
         "championat.com",
+        "check-host.net",
         "chip.de",
         "cn.ru",
         "developers.rambler.ru",
