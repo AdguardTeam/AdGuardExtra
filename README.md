@@ -2,7 +2,7 @@
 
 AdGuard Extra is a userscript (or a browser extension) that is supposed to fight ad blocking circumvention attempts which become more and more and popular. Regular ad blocking rules do not allow us being as flexible as it's necessary, that's why AdGuard Extra was developed.
 
-AdGuard Extra comes pre-installed with all premium AdGuard apps, which support userscripts, you won't need to do anything.
+AdGuard Extra comes pre-installed with all premium AdGuard apps, which support userscripts, i.e for AdGuard for Windows, AdGuard for Mac, and AdGuard for Android you won't need to do anything to use it.
 However, if you want to use it alongside AdGuard browser extension or any other ad blocker, you'll need to use an additional extension.
 
 ## How to install AdGuard Extra
