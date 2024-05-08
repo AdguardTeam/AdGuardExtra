@@ -1,5 +1,5 @@
 {
-    "version": "1.0.594",
+    "version": "1.0.600",
     "hosts": [
         "*.livejournal.com",
         "1777.ru",
@@ -120,7 +120,6 @@
         "peers.tv",
         "periskop.su",
         "pikabu.ru",
-        "ppss.kr",
         "pulse.mail.ru",
         "quto.ru",
         "rambler.ru",
@@ -184,7 +183,6 @@
         "yandex.uz",
         "yap.ru",
         "yaplakal.com",
-        "ygosu.com",
         "youpouch.com"
     ]
 }
