@@ -50,3 +50,5 @@ AdGuard Extra is a companion extension, it is supposed to be used with a full-sc
 It provides no user interface save for the extension icon in the toolbar. Your browser should allow you to hide the icon if it annoys you.
 
 Please note that it is only useful on a limited set of websites, and it does nothing on the websites not from this list.
+
+For problematic sites that frequently change their code, the solution for that sites is only included in the AdGuard Extra Userscript version, which can be installed via Tampermonkey. The repository provides a list of problem sites marked with the 'problematic' label.  Installation instructions can be found in the [AdGuard Extra Userscript section](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#userscript).
