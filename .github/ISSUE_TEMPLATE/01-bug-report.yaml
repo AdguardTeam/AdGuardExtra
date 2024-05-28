@@ -1,5 +1,6 @@
-name: Bug report
-description: Report an issue with AdGuard Extra
+name: 🐞 Bug report
+description: If you found something that we should know about
+labels: "Bug"
 body:
   - type: checkboxes
     attributes:
@@ -8,9 +9,11 @@ body:
         To avoid invalid reports, please check and confirm following checkboxes.
         It is highly recommended to use our [Web Reporting Tool](https://kb.adguard.com/en/technical-support/reporting-tool) instead of creating an issue on GitHub.
       options:
-        - label: Filters were updated before reproducing an issue;
+        - label: Filters were updated before reproducing an issue
           required: true
-        - label: AdGuard Extra version is up-to-date;
+        - label: AdGuard Extra version is up-to-date
+          required: true
+        - label: I checked to make sure that this issue has not already been filed
           required: true
   - type: dropdown
     id: products
@@ -28,7 +31,7 @@ body:
       required: true
 
   - type: dropdown
-    id: what-happened
+    id: problem_type
     attributes:
       label: What type of problem have you encountered?
       description: If the problem does not fall under any category that is listed here, please contact our tech support - support@adguard.com
@@ -159,33 +162,60 @@ body:
       required: true
 
   - type: textarea
-    id: comments
+    id: what-happened
     attributes:
-      label: Add your comment and screenshots
-      description: |
-        1. Add screenshots of the problem. You can drag and drop images or paste them from clipboard;
-          Use `<details> </details>` tag to hide screenshots under the spoiler;
-        2. Describe the issue extensively unless it is absolutely clear from the screenshot what the problem is;
-        You can also indicate any other information that you think the developers should know.
-
-        Warning: Please remove personal information before uploading screenshots!
+      label: Issue Details
+      description: Please provide a set of steps to reproduce the issue.
+      placeholder:
       value: |
-          1. <comment>
-
-          2. Screenshots
-          <details><summary>Screenshot 1:</summary>
-
-          <!-- paste screenshot here -->
-
-          </details>
-
-          <details><summary>Screenshot N:</summary>
+        Steps to reproduce:
+        1.
+        2.
+        3.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: how_it_should_be
+    attributes:
+      label: Expected Behavior
+      placeholder: A clear and concise description of what you expected to happen.
+    validations:
+      required: false
+      
+  - type: textarea
+    id: how_it_is
+    attributes:
+      label: Actual Behavior
+      placeholder: A clear description of what happened instead.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: screens
+    attributes:
+      label: Screenshots
+      description: |
+        Add screenshots explaining your problem.
+        You can drag and drop images or paste them from clipboard.
+        Use `<details> </details>` tag to hide screenshots under the spoiler.
+      placeholder: If applicable add screenshots explaining your problem.
+      value: |
+          <details><summary>Screenshot 1</summary>
 
           <!-- paste screenshot here -->
 
           </details>
     validations:
       required: true
+      
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      placeholder: Add any other context about the problem here.
+    validations:
+      required: false
 
   - type: checkboxes
     id: terms
