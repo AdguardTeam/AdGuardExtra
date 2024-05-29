@@ -5,7 +5,7 @@
         misfiring or safe browsing false positives, using the form on our
         website
     'name': 'AdGuard filters issues'
-    'url': 'https://link.adtidy.org/forward.html?action=report&app=home&from=github'
+    'url': 'https://link.adtidy.org/forward.html?action=report&from=github'
   - 'about': >
         Please check AdGuard Knowledgebase for more useful information about our products
     'name': 'Knowledgebase'
