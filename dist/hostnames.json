@@ -1,5 +1,5 @@
 {
-    "version": "1.0.613",
+    "version": "1.0.615",
     "hosts": [
         "*.livejournal.com",
         "1777.ru",
@@ -97,6 +97,7 @@
         "media.auto.ru",
         "meteo.ua",
         "minigames.mail.ru",
+        "mmminigames.mail.ru",
         "motor.ru",
         "msn.com",
         "multiup.org",
