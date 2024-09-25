@@ -20,10 +20,12 @@ However, if you want to use it alongside AdGuard browser extension or any other 
 ### Userscript
 
 1. Install Tampermonkey
-2. Open Settings, switch mode to "Advanced"
-3. Scroll settings page down and find "Inject Mode" there
-4. Change it to "Instant"
-5. Click on this link to install AdGuard Extra: https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js
+If you are using Tampermonkey version 5.2.0 or higher, you can skip steps 2–4.
+For Tampermonkey version 5.1.0 or lower:
+2. Open Settings and switch the mode to Advanced.
+3. Scroll down the settings page and locate the Inject Mode option.
+4. Change Inject Mode to Instant.
+5. Click the following link to install AdGuard Extra: https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js
 
 Alternatively, you can install the beta version of AdGuard Extra userscript: https://userscripts.adtidy.org/beta/adguard-extra/1.0/adguard-extra.user.js
 
