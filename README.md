@@ -22,7 +22,7 @@ However, if you want to use it alongside AdGuard browser extension or any other 
 1. Install Tampermonkey
 2. Click the following link to install AdGuard Extra: https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js
 
-If you are using Tampermonkey version 5.1.0 or lower you need also change Inject Mode:
+If you are using Tampermonkey version 5.1 or lower you need also change Inject Mode:
 
 1. Open Settings and switch the mode to Advanced.
 2. Scroll down the settings page and locate the Inject Mode option.
