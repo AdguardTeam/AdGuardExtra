@@ -1,5 +1,5 @@
 {
-    "version": "1.0.646",
+    "version": "1.0.650",
     "hosts": [
         "*.livejournal.com",
         "*.sdamgia.ru",
@@ -58,6 +58,7 @@
         "images.rambler.ru",
         "investigationdiscovery.com",
         "irecommend.ru",
+        "japscan.lol",
         "jytechs.in",
         "kakprosto.ru",
         "kino.rambler.ru",
