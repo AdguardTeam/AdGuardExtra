@@ -1,5 +1,5 @@
 {
-    "version": "1.0.654",
+    "version": "1.0.657",
     "hosts": [
         "*.livejournal.com",
         "*.sdamgia.ru",
@@ -143,6 +143,7 @@
         "watch.hgtv.com",
         "weather.rambler.ru",
         "weekend.rambler.ru",
+        "wiki.yjsnpi.nu",
         "wmj.ru",
         "woman.rambler.ru",
         "ya.ru",
